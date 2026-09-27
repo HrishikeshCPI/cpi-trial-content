@@ -41,5 +41,9 @@
     "com.sap.scenarios.cpq2s4h.quote.replicate": "1.2.1",
     "com.sap.scenarios.s4h2cpq.priceconditionreplication": "1.1.0",
     "com.sap.scenarios.s4h2cpq.orderconfirmation.replicate": "1.0.0"
+  },
+  "SuccessFactorsEmployeeCentraltoERPOrganizationalData": {
+    "com.sap.PA_SE_IN.ec2erp.SFSFtoSAPGenericObjectReplication.V1": "16.0.0",
+    "com.sap.PA_SE_IN.ec2erp.SFSFtoSAPOrgAssignmentReplication.V1": "15.0.0"
   }
 }
