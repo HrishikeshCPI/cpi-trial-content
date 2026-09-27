@@ -1,4 +1,4 @@
-#Sun Sep 27 05:01:25 UTC 2026
+#Sun Sep 27 05:14:06 UTC 2026
 ChunkingAllowed=1
 ERP_OrderConfirmation_S=/S4/CPQ/COD_OPPT_CONF.ORDERS05
 ERP_QuoteFollowupNitification_S=https\://*.cpq.com/wsAPI/CPQAPI.asmx

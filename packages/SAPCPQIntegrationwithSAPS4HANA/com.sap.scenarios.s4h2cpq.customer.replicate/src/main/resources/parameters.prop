@@ -1,4 +1,4 @@
-#Sun Sep 27 05:01:18 UTC 2026
+#Sun Sep 27 05:14:00 UTC 2026
 BusinessPartnerReplicate_SOAP_S=/S4/CPQ/BusinessPartnerSUITEBulkReplicateRequest_Out
 BusinessPartnerReplicationPostExit=/S4/CPQ/BusinessPartnerSUITEBulkReplicateRequest_Out_PostExit
 CPQ_Customer_R=https\://*.cpq.com/wsAPI/CPQAPI.asmx
