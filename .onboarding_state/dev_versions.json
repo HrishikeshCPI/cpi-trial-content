@@ -14,5 +14,25 @@
     "Automated_Deployment_for_Delta_Load_Flow": "1.0.0",
     "Extension_-_Deliveries_Create": "1.0.0",
     "Manual_Deployment_for_Master_Data_Flow": "1.0.0"
+  },
+  "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing": {
+    "com.sap.scenarios.c4c2ymkt.servicerequestreplicate.V2": "1.0.4",
+    "Request_Marketing_Permissions_and_Subscriptions_from_SAP_Business_Suite": "1.1.6",
+    "com.sap.scenarios.c4c2ymkt.opportunityreplicate.v2": "1.0.5",
+    "com.sap.scenarios.ymkt2c4c.activityreplication": "2.0.5",
+    "com.sap.scenarios.c4c2ymkt.leadconfirmation.v2": "1.1.0",
+    "com.sap.scenarios.c4c2ymkt.activityreplicationconfirmation.V2": "1.0.0",
+    "com.sap.scenarios.c4c2ymkt.businesspartner.replicate.MDG": "1.1.7",
+    "com.sap.scenarios.c4c2ymkt.businessattributsetreplication": "2.1.1",
+    "com.sap.scenarios.ymkt2c4c.businesspartnerrelationshipconfirmation.replicate": "1.0.0",
+    "com.sap.scenarios.ymkt2c4c.leanleadreplication.v2": "2.2.4",
+    "com.sap.scenarios.ymkt2c4c.campaignreplication": "2.0.4",
+    "com.sap.scenarios.c4c2ymkt.keymapping.replicate": "1.0.1",
+    "com.sap.scenarios.ymkt2c4c.businesspartnerconfirmation.replicate": "1.0.1",
+    "com.sap.scenarios.c4c2ymkt.activityreplication.v2": "1.0.12",
+    "com.sap.scenarios.c4c2ymkt.querycampaigninteraction": "1.0.5",
+    "com.sap.scenarios.c4c2ymkt.businessattributeassignmentreplication": "2.1.2",
+    "com.sap.scenarios.c4c2ymkt.leanleadreplication.v2": "1.0.6",
+    "com.sap.scenarios.c4c2ymkt.businesspartnerrelationship.replicate.MDG": "1.1.2"
   }
 }
