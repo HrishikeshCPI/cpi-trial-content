@@ -4,5 +4,15 @@
     "Subflow_1_Northwind_Customer_Data": "1.0.1",
     "Subflow_2_Northwind_Customer_Data": "1.0.1",
     "Data_Extractor_copy": "2.0.10"
+  },
+  "SAPS4HANAIntegrationwithSAPAgriculturalOriginationPortalExtensionSubflows": {
+    "Automated_Deployment_for_Master_Data_Flow": "1.0.0",
+    "Extension_-_Trading_Contracts_Create": "1.0.0",
+    "Extension_-_Settlements_Create": "1.0.0",
+    "Send_Error_Notification_via_mail": "1.0.0",
+    "Manual_Deployment_for_Delta_Load_Flow": "1.0.0",
+    "Automated_Deployment_for_Delta_Load_Flow": "1.0.0",
+    "Extension_-_Deliveries_Create": "1.0.0",
+    "Manual_Deployment_for_Master_Data_Flow": "1.0.0"
   }
 }
