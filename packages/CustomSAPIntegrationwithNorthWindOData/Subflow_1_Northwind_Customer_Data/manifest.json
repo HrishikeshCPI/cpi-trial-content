@@ -1,0 +1,6 @@
+{
+  "Id": "Subflow_1_Northwind_Customer_Data",
+  "Name": "Subflow 1 Northwind Customer Data",
+  "Version": "1.0.1",
+  "PackageId": "CustomSAPIntegrationwithNorthWindOData"
+}

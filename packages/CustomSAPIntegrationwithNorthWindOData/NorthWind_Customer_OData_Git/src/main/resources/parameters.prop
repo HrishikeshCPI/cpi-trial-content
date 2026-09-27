@@ -1,0 +1,4 @@
+#Sun Sep 27 05:00:26 UTC 2026
+EnableLogging=false
+HTTPSAddress=/NorthWind/Customer
+SubIntegrationFlow=/subflow1

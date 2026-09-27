@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="odata.metadata" type="xs:string"/>
+
+                <xs:element name="value" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CustomerID" type="xs:string"/>
+                            <xs:element name="CompanyName" type="xs:string"/>
+                            <xs:element name="ContactName" type="xs:string"/>
+                            <xs:element name="ContactTitle" type="xs:string"/>
+                            <xs:element name="Address" type="xs:string"/>
+                            <xs:element name="City" type="xs:string"/>
+                            <xs:element name="Region" type="xs:string" minOccurs="0"/>
+                            <xs:element name="PostalCode" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

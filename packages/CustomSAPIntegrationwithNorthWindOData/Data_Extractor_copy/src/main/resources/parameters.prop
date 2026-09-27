@@ -1,0 +1,21 @@
+#Sun Sep 27 05:00:29 UTC 2026
+Authentication=oauth
+Bcc\ Address=
+Cc\ Address=
+Delta\ Buffer=0
+Encryption=none
+Extractor\ Frequency=<row><cell>dateType</cell><cell>SIMPLE</cell></row><row><cell>hourValue</cell><cell>18</cell></row><row><cell>minutesValue</cell><cell>29</cell></row><row><cell>timeType</cell><cell>ON_TIME</cell></row><row><cell>timeZone</cell><cell>( UTC 0\:00 ) Greenwich Mean Time(Etc/GMT)</cell></row><row><cell>throwExceptionOnExpiry</cell><cell>true</cell></row><row><cell>second</cell><cell>0</cell></row><row><cell>minute</cell><cell>0/5</cell></row><row><cell>hour</cell><cell>*</cell></row><row><cell>day_of_month</cell><cell>?</cell></row><row><cell>month</cell><cell>*</cell></row><row><cell>dayOfWeek</cell><cell>*</cell></row><row><cell>year</cell><cell>*</cell></row><row><cell>startAt</cell><cell></cell></row><row><cell>endAt</cell><cell></cell></row><row><cell>attributeBehaviour</cell><cell>isThrowExceptionOnExpiryVisible,isScheduleAdvancedVisible,isScheduleAdvancedStartEndVisible,isScheduleSimpleVisible</cell></row><row><cell>triggerType</cell><cell>cron</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>simple.repeat\=NONE&amp;trigger.timeZone\=Etc/GMT</cell></row>
+From\ Address=email@abc.com
+Location\ ID=
+PersistentQueryQueueLockRetry=10
+PersistentQueryQueueLockSleep=10000
+Protection=starttls_mandatory
+Proxy=none
+SMTP\ Address=smtp.gmail.com\:587
+SMTP\ Credentials=
+SMTP\ OAuth2\ Credential=Outlook
+Time\ Out=30000
+To\ Address=email@abc.com
+chunksize=1000
+email@abc.com=email@abc.com
+retryinmillis=30000

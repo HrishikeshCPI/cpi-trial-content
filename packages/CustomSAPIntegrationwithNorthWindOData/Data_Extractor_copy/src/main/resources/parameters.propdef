@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><parameters><parameter>
+    <key/>
+    <name>retryinmillis</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>chunksize</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>PersistentQueryQueueLockSleep</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>PersistentQueryQueueLockRetry</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SMTP Credentials</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>From Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Configure sender email address</description>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>To Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Configure recipient email address</description>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>SMTP Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Extractor Frequency</name>
+    <type>custom:schedule</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Protection</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Time Out</name>
+    <type>xsd:integer</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Authentication</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Proxy</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>email@abc.com</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Configure Bcc value</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Encryption</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <isCombobox>true</isCombobox>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Cc Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Bcc Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Location ID</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata>
+      <Configured>true</Configured>
+    </additionalMetadata>
+  </parameter><parameter>
+    <key/>
+    <name>Delta Buffer</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description>Input( in Minutes) to increment the next delta execution time</description>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SMTP OAuth2 Credential</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::cc" attribute_uilabel="Cc" param_key="Cc Address"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::server" attribute_uilabel="Address" param_key="SMTP Address"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::bcc" attribute_uilabel="Bcc" param_key="Bcc Address"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::auth" attribute_uilabel="Authentication" param_key="Authentication"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::proxyType" attribute_uilabel="Proxy Type" param_key="Proxy"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::ssl" attribute_uilabel="Protection" param_key="Protection"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::timeout" attribute_uilabel="Timeout (in ms)" param_key="Time Out"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::locationId" attribute_uilabel="Location ID" param_key="Location ID"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::encrypt.type" attribute_uilabel="Signature and Encryption Type" param_key="Encryption"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::from" attribute_uilabel="From" param_key="From Address"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::tokenCredential" attribute_uilabel="Credential Name" param_key="SMTP OAuth2 Credential"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::to" attribute_uilabel="To" param_key="To Address"/><reference attribute_category="Mail" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.11.0/attrId::user" attribute_uilabel="Credential Name" param_key="SMTP Credentials"/></param_references></parameters>
