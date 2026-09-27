@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><parameters><parameter>
+    <key/>
+    <name>Cc Email Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>SMTP Address Of Email Server</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Notification Flow Connector</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>CI Tenant URL</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Sender E-mail address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Receiver E-mail Address</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><parameter>
+    <key/>
+    <name>Email Server Authentication Name</name>
+    <type>xsd:string</type>
+    <isRequired>false</isRequired>
+    <constraint/>
+    <description/>
+    <additionalMetadata/>
+  </parameter><param_references><reference attribute_category="Receiver1" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::cc" attribute_uilabel="Cc" param_key="Cc Email Address"/><reference attribute_category="Receiver1" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::server" attribute_uilabel="Address" param_key="SMTP Address Of Email Server"/><reference attribute_category="Receiver1" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::from" attribute_uilabel="From" param_key="Sender E-mail address"/><reference attribute_category="Receiver1" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::to" attribute_uilabel="To" param_key="Receiver E-mail Address"/><reference attribute_category="Receiver1" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::body" attribute_uilabel="Mail Body" param_key="CI Tenant URL"/><reference attribute_category="Receiver1" attribute_id="ctype::AdapterVariant/cname::Mail/tp::SMTP/mp::None/direction::Receiver/version::1.9.0/attrId::user" attribute_uilabel="Credential Name" param_key="Email Server Authentication Name"/><reference attribute_category="Error_Flow" attribute_id="ctype::Adapter/cname::ProcessDirect/vendor::SAP/version::1.1.2/attrId::address" attribute_uilabel="Address" param_key="Notification Flow Connector"/></param_references></parameters>

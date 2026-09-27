@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Sun Sep 27 05:00:36 UTC 2026
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+description=Sub flow for extending the configure-only flow "Replicate Settlements Data from JMS Queue to SAP Agricultural Origination Portal"
+source=SAPCloudPlatformIntegration
+target=SAPCloudPlatformIntegration,SAPAgriculturalOriginationPortal

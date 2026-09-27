@@ -1,0 +1,6 @@
+{
+  "Id": "Send_Error_Notification_via_mail",
+  "Name": "Send Error Notification via mail",
+  "Version": "1.0.0",
+  "PackageId": "SAPS4HANAIntegrationwithSAPAgriculturalOriginationPortalExtensionSubflows"
+}
