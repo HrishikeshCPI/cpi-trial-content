@@ -1,5 +1,5 @@
 #Store metainfo properties
-#Sun Sep 27 05:00:38 UTC 2026
+#Sun Sep 27 05:13:21 UTC 2026
 SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
 description=Manually Deploy the Delta Load Flow to replicate delta changes for Contracts, Deliveries and Settlements from SAP Agricultural Contract Management for SAP S/4HANA to SAP Agricultural Origination Portal
 source=SAPCloudPlatformIntegration
