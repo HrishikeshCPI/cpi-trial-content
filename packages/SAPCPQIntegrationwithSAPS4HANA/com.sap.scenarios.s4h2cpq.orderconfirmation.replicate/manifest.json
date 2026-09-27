@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.s4h2cpq.orderconfirmation.replicate",
+  "Name": "Replicate Sales Order Confirmation from SAP Business Suite",
+  "Version": "1.0.0",
+  "PackageId": "SAPCPQIntegrationwithSAPS4HANA"
+}

@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.s4h2cpq.priceconditionreplication",
+  "Name": "Replicate Price Condition from SAP Business Suite",
+  "Version": "1.1.0",
+  "PackageId": "SAPCPQIntegrationwithSAPS4HANA"
+}

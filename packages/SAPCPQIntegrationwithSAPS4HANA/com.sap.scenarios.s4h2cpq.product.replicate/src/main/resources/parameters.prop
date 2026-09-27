@@ -1,0 +1,16 @@
+#Sun Sep 27 05:01:20 UTC 2026
+CPQ_WSAPI_R=https\://*cpq.com/wsAPI/wssrv.asmx
+ChunkingAllowed=1
+Extension\ Implemented=false
+Issuer=
+Logging=false
+ProxyType=default
+Receiver_Auth=Client Certificate
+S4-CPQ-MaterialReplicationPostExit=/S4/CPQ/ProductMDMBulkReplicateRequest_Out_PostExit
+S4_Auth=RoleBased
+S4_Material_address=/S4/CPQ/ProductMDMBulkReplicateRequest_Out
+TimeOut=60000
+UserRole=ESBMessaging.send
+artifact=
+pv-key-alias=
+subject=

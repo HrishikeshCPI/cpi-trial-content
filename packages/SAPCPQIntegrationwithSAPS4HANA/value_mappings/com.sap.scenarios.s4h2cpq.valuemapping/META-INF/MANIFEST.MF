@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.scenarios.s4h2cpq.valuemapping; singleton:=
+ true
+Origin-Bundle-SymbolicName: com.sap.scenarios.s4h2cpq.valuemapping
+Bundle-ManifestVersion: 2
+Origin-Bundle-Version: 1.0.1
+Import-Package: com.sap.xi.mapping.camel.valmap
+Origin-Bundle-Name: Value mapping for SAP CPQ Integration with SAP S4HAN
+ A
+SAP-RuntimeProfile: iflmap
+Bundle-Name: Value mapping for SAP CPQ Integration with SAP S4HANA
+Bundle-Version: 1.0.1
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivator
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1654605213236
+SAP-BundleType: ValueMapping
+

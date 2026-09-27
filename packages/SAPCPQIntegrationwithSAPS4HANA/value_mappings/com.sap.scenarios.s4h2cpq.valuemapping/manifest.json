@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.s4h2cpq.valuemapping",
+  "Name": "Value mapping for SAP CPQ Integration with SAP S4HANA",
+  "Version": "1.0.1",
+  "PackageId": "SAPCPQIntegrationwithSAPS4HANA"
+}

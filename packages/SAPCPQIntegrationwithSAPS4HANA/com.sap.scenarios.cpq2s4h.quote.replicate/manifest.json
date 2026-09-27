@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.cpq2s4h.quote.replicate",
+  "Name": "Create Sales Quote Follow Up Document in SAP Business Suite",
+  "Version": "1.2.1",
+  "PackageId": "SAPCPQIntegrationwithSAPS4HANA"
+}

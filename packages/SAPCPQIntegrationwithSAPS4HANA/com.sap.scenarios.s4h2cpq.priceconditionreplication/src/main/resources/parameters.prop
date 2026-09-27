@@ -1,0 +1,16 @@
+#Sun Sep 27 05:01:23 UTC 2026
+CPQ_UpsertPriceBook_R=https\://*.cpq.com/wsAPI/wssrv.asmx
+ChunkingAllowed=1
+ERP_PriceCondition_S=/S4/CPQ/COND_A_COND_A04
+Extension\ Implemented=false
+Issuer=
+Logging=false
+PriceReplicationPostExit=/S4/CPQ/COND_A_COND_A04_PostExit
+ProxyType=default
+Receiver_Auth=Client Certificate
+Sender_Auth=RoleBased
+Subject=
+TimeOut=60000
+UserRole=ESBMessaging.send
+artifact=
+pv-key-alias=

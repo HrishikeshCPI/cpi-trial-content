@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.s4h2cpq.product.replicate",
+  "Name": "Replicate Material from SAP Business Suite",
+  "Version": "1.0.3",
+  "PackageId": "SAPCPQIntegrationwithSAPS4HANA"
+}

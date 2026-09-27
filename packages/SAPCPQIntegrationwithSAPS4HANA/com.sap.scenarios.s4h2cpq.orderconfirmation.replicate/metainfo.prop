@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Sun Sep 27 05:01:25 UTC 2026
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+description=\ Creation of Sales Quote Follow Up Document in SAP Business Suite
+source=SAPS4HANA
+target=SAPCommerceCloudsolutionsalesconfiguration
