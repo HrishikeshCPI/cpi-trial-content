@@ -365,7 +365,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>system</key>
-                    <value>SubIntegrationFlow</value>
+                    <value>SubIFlow</value>
                 </ifl:property>
                 <ifl:property>
                     <key>TransportProtocol</key>

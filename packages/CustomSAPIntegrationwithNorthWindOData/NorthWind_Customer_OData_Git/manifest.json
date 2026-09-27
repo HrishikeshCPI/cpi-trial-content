@@ -1,6 +1,6 @@
 {
   "Id": "NorthWind_Customer_OData_Git",
   "Name": "NorthWind Customer OData Git",
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "PackageId": "CustomSAPIntegrationwithNorthWindOData"
 }
