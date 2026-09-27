@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.keymapping.replicate",
+  "Name": "Replicate Key Mapping to SAP Marketing",
+  "Version": "1.0.1",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

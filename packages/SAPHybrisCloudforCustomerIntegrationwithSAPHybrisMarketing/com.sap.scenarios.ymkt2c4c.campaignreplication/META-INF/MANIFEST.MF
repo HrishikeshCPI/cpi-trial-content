@@ -1,0 +1,69 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.scenarios.ymkt2c4c.campaignreplication;sing
+ leton:=true
+Origin-Bundle-SymbolicName: com.sap.scenarios.ymkt2c4c.campaignreplicati
+ on
+Bundle-ManifestVersion: 2
+Origin-Bundle-Version: 2.0.4
+Import-Package:  com.sap.esb.webservice.one.way, org.springframework.tra
+ nsaction.support, org.springframework.jdbc.datasource, com.sap.it.api.m
+ apping, com.sap.aii.mapping.value.api, com.sap.esb.size.limiter, com.sa
+ p.esb.camel.webservice.endpoint.configurer, com.sap.esb.webservice.secu
+ rity.crypto.api, com.sap.esb.webservice.policy.alternative.selector, or
+ g.apache.cxf.ws.security.wss4j, org.apache.wss4j.common.crypto, javax.s
+ ecurity.auth.callback, com.sap.esb.camel.jdbc.idempotency.reorg, com.sa
+ p.it.iflow.model.runtime, com.sap.it.iflow.model, com.sap.sod.utils.ido
+ c.soap.interceptors, com.sap.sod.utils.soap.processors, com.sap.esb.cam
+ el.jdbc.inprogress.repository, com.sap.esb.camel.jdbc.idempotency.repos
+ itory, com.sap.esb.camel.security.cms, com.sap.esb.camel.endpoint.confi
+ gurator.api, org.apache.camel.processor.idempotent.jdbc, org.apache.cam
+ el.spi, com.sap.esb.camel.mpl.access, com.sap.esb.camel.eip.splitter, c
+ om.sap.esb.camel.xmljson, com.sap.it.op.ed, com.sap.it.op.agent.ed.plug
+ ins.camel.api, com.sap.esb.webservice.authorization.supplier.api, org.a
+ pache.cxf.interceptor.security, net.sf.saxon.xpath, net.sf.saxon,com.sa
+ p.esb.application.services.cxf.interceptor,com.sap.esb.security,com.sap
+ .it.op.agent.api,com.sap.it.op.agent.collector.camel,com.sap.it.op.agen
+ t.collector.cxf,com.sap.it.op.agent.mpl,com.sap.sod.utils.cxf.intercept
+ ors,com.sap.sod.utils.encoding.processors,com.sap.sod.utils.idoc.soap,c
+ om.sap.sod.utils.soap,com.sap.sod.utils.idoc.soap.processors,javax.jms,
+ javax.jws,javax.wsdl,javax.xml.bind.annotation,javax.xml.namespace,java
+ x.xml.ws,org.apache.camel;version="2.8",org.apache.camel.builder;versio
+ n="2.8",org.apache.camel.builder.xml;version="2.8",org.apache.camel.com
+ ponent.cxf,org.apache.camel.model;version="2.8",org.apache.camel.proces
+ sor;version="2.8",org.apache.camel.processor.aggregate;version="2.8",or
+ g.apache.camel.spring.spi;version="2.8",org.apache.commons.logging,org.
+ apache.cxf.binding,org.apache.cxf.binding.soap,org.apache.cxf.binding.s
+ oap.spring,org.apache.cxf.bus,org.apache.cxf.bus.resource,org.apache.cx
+ f.bus.spring,org.apache.cxf.buslifecycle,org.apache.cxf.catalog,org.apa
+ che.cxf.configuration.jsse,org.apache.cxf.configuration.spring,org.apac
+ he.cxf.endpoint,org.apache.cxf.headers,org.apache.cxf.interceptor,org.a
+ pache.cxf.management.counters,org.apache.cxf.message,org.apache.cxf.pha
+ se,org.apache.cxf.resource,org.apache.cxf.service.factory,org.apache.cx
+ f.service.model,org.apache.cxf.transport,org.apache.cxf.transport.commo
+ n.gzip,org.apache.cxf.transport.http,org.apache.cxf.transport.http.poli
+ cy,org.apache.cxf.workqueue,org.apache.cxf.ws.rm.persistence,org.apache
+ .cxf.wsdl11,org.osgi.framework;version="1.6.0",org.osgi.service.bluepri
+ nt;version="[1.0.0,2.0.0)",org.slf4j;version="1.6",org.springframework.
+ beans.factory.config;version="3.0",com.sap.aii.ib.bom.flib.types,com.sa
+ p.aii.mapping.api,com.sap.aii.mappingtool.flib3,com.sap.aii.mappingtool
+ .flib7,com.sap.aii.mappingtool.tf3,com.sap.aii.mappingtool.tf3.rt,com.s
+ ap.aii.mappingtool.tf7,com.sap.aii.mappingtool.tf7.rt,com.sap.aii.mappi
+ ngtool.tfapi,com.sap.esb.webservice.audit.log
+Origin-Bundle-Name: Replicate Campaign from SAP Marketing
+SAP-RuntimeProfile: iflmap
+Bundle-Name: Replicate Campaign from SAP Marketing
+Bundle-Version: 2.0.4
+Bundle-ClassPath: .,/mapping/CUAN_COD_Campaign_Replicate_Bulk.jar,/mappi
+ ng/CUAN_COD_Campaign_Replicate_Bulk.jar,/mapping/CUAN_COD_Campaign_Repl
+ icate_Bulk.jar
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1683303550883
+Import-Service:  com.sap.esb.camel.security.cms.SignatureSplitter;multip
+ le:=false, org.apache.cxf.ws.rm.persistence.RMStore;multiple:=false, ja
+ vax.sql.DataSource;multiple:=false;filter="(dataSourceName=default)", c
+ om.sap.esb.security.TrustManagerFactory;multiple:=false, com.sap.esb.se
+ curity.KeyManagerFactory;multiple:=false, com.sap.esb.camel.endpoint.co
+ nfigurator.api.EndpointConfigurator;multiple:=false;filter="(endpointTy
+ pe=SFTP)",com.sap.esb.webservice.audit.log.AuditLogger 
+SAP-BundleType: IntegrationFlow
+

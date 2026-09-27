@@ -1,0 +1,17 @@
+#Sun Sep 27 05:01:02 UTC 2026
+C4C_allowChunking_29=1
+C4C_authentication_35=Basic
+C4C_cleanupHeaders_28=1
+C4C_communication_user=Demo
+C4C_proxyType_2=default
+CampaignReplicationRequest_PostExit=/yMKT/C4C/CampaignReplicationNotification_Out_PostExit
+Custom_Ext_Enabled=false
+Host=qxl-cust238.dev.sapbydesign.com
+Port=443
+Timeout=60000
+User_Role=ESBMessaging.send
+issuer=
+p-key-alias=
+subject=
+yMKT_address_4=/yMKT/C4C/CampaignReplicationNotification_Out_EXT
+yMKT_senderAuthType_27=RoleBased

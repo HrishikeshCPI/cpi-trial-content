@@ -1,0 +1,19 @@
+#Sun Sep 27 05:00:53 UTC 2026
+ActivityConfirmationExit=/C4C/yMKT/ActivityReplicationConfirmation_PostExit
+C4C_address_7=/C4C/yMKT/ActivityReplicationConfirmation
+C4C_enableBasicAuthentication_9=true
+C4C_wsdlURL_8=/wsdl/DOC_CLAS_CO_APCRM_ACTIVITY_REPL_CNF_OUT.wsdl
+Extension\ Implemented=false
+Ignore\ elements\ not\ in\ ODATA\ Metadata=true
+Protocol-Hostname-Port=https\://*-api.s4hana.ondemand.com
+Sender_Auth=RoleBased
+UserRole=ESBMessaging.send
+issuer=
+location-id=
+p-key-alias=
+subject=
+yMKT_authenticationMethod_6=Basic
+yMKT_odatapagesize_0=200
+yMKT_proxyType_8=default
+yMKT_receiveTimeOut_10=5
+ymkt-user-cred=ODATA-Service-User

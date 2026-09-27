@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Sun Sep 27 05:00:46 UTC 2026
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+description=Service Ticket Replication to SAP Marketing
+source=SAPCloudforCustomer
+target=SAPMarketingCloud

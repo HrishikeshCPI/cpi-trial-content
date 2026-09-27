@@ -1,0 +1,22 @@
+#Sun Sep 27 05:00:59 UTC 2026
+AllowChunking=1
+C4C_allowChunking_8=1
+C4C_authentication_10=Client Certificate
+C4C_proxyType_9=default
+Host=*.crm.ondemand.com
+Port=443
+Receiver_Auth=Client Certificate
+S4_BPRelationshipConf_S=/yMKT/C4C/BusinessPartnerRelationshipSUITEBulkReplicateConfirmation_Out
+S4_address_12=/S4/C4C/BusinessPartnerRelationshipSUITEBulkReplicateConfirmation_Out
+S4_enableBasicAuthentication_11=true
+S4_wsdlURL_13=/wsdl/CO_MDG_BP_RELATIONSHIP_CNF_OUT.wsdl
+Sender_Auth=RoleBased
+TimeOut=60000
+UserRole=ESBMessaging.send
+artifactname=
+c4c-communication-user=
+host=*.crm.ondemand.com
+issuer=
+port=443
+pv-key-alias=
+subject=

@@ -1,0 +1,17 @@
+#Sun Sep 27 05:01:09 UTC 2026
+C4C-yMKT-AttributeAssignmentReplicationPostExit=/C4C/yMKT/BusinessAttributeAssignmentReplicationOut_PostExit
+C4C_address_12=/C4C/yMKT/BusinessAttributeAssignmentReplicationOut
+C4C_senderAuthType_62=RoleBased
+C4C_senderAuthType_7=ESBMessaging.send
+Extension\ Implemented=false
+Ignore\ elements\ not\ in\ ODATA\ Metadata=true
+Protocol-Hostname-Port=https\://*.s4hana.ondemand.com
+issuer=
+location-id=
+p-key-alias=
+subject=
+yMKT_authenticationMethod_17=Basic
+yMKT_odatapagesize_0=200
+yMKT_proxyType_19=default
+yMKT_receiveTimeOut_16=5
+ymkt-user-cred=ODATA-Service-User

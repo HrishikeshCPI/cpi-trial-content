@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.ymkt2c4c.leanleadreplication.v2",
+  "Name": "Replicate Lead with Business Partner Address Information from SAP Marketing",
+  "Version": "2.2.4",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

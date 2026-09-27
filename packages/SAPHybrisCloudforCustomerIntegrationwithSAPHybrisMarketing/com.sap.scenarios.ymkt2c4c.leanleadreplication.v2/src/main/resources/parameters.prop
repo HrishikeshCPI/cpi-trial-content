@@ -1,0 +1,14 @@
+#Sun Sep 27 05:01:00 UTC 2026
+C4C_authentication_8=Client Certificate
+Custom_Ext_Enabled=false
+Host=*.crm.ondemand.com
+LeanLeadReplicationReplicateRequestPostExit=/yMKT/C4C/LeadReplicationRequest_Out_PostExit
+Port=443
+Timeout=60000
+artifactname=
+issuer=
+p-key-alias=
+subject=
+yMKT_address_0=/yMKT/C4C/LeadReplicationRequest_Out
+yMKT_senderAuthType_4=RoleBased
+yMKT_userRole_3=ESBMessaging.send

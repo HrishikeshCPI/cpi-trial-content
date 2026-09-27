@@ -1,0 +1,14 @@
+#Sun Sep 27 05:01:03 UTC 2026
+Client=001
+Issuer=
+LocationID=
+Protocol-Hostname-Port=https\://*-api.s4hana.ondemand.com\:443
+ProxyType=sapcc
+Receiver_Auth=Client Certificate
+S4_KeyMappingRequest_S=/C4C/yMKT/KeyMappingBulkReplicateRequest_Out
+Sender_Auth=RoleBased
+Subject=
+TimeOut=60000
+UserRole=ESBMessaging.send
+artifact=
+pv-key-alias=

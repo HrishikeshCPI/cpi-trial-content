@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.querycampaigninteraction",
+  "Name": "Request Campaign Interactions from SAP Marketing",
+  "Version": "1.0.5",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

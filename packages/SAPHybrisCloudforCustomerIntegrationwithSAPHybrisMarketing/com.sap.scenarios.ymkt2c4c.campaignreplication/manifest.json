@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.ymkt2c4c.campaignreplication",
+  "Name": "Replicate Campaign from SAP Marketing",
+  "Version": "2.0.4",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

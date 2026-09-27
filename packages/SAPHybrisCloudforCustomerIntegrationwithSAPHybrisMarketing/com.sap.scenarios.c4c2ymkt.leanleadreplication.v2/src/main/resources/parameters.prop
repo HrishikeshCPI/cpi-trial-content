@@ -1,0 +1,23 @@
+#Sun Sep 27 05:01:10 UTC 2026
+C4C_LeanLeadReplicationRequest_PostExit=/C4C/yMKT/LeanLeadReplicationBulkReplicateRequest_PostExit
+C4C_address_21=/C4C/yMKT/LeanLeadReplicationBulkReplicateRequest
+C4C_enableBasicAuthentication_20=true
+CSRF_Protected=true
+Content_Type=application/atom+xml
+Encoding=utf8
+Extension\ Implemented=false
+Ignore\ elements\ not\ in\ ODATA\ Metadata=true
+Issuer=
+Protocol-Hostname-Port=https\://*-api.s4hana.ondemand.com
+Proxy_Type=default
+Receiver_Auth=Basic
+Sender_Auth=RoleBased
+Subject=
+Timeout=1
+UserRole=ESBMessaging.send
+issuer=cn\=issuer
+location-id=
+p-key-alias=
+reuse_connection=true
+subject=cn\=subject
+ymkt-user-cred=ODATA-Service-User

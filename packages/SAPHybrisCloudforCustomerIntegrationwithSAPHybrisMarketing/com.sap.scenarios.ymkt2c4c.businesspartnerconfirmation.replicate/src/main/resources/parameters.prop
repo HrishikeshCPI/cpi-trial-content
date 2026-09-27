@@ -1,0 +1,13 @@
+#Sun Sep 27 05:01:05 UTC 2026
+AllowChunking=1
+Host=*.crm.ondemand.com
+Receiver_Auth=Client Certificate
+S4_BPConfirmation_Send=/yMKT/C4C/BusinessPartnerSUITEBulkReplicateConfirmation_Out
+S4_enableBasicAuthentication_2=true
+Sender_Auth=RoleBased
+TimeOut=60000
+UserRole=ESBMessaging.send
+c4c-communication-user=
+issuer=
+pv-key-alias=
+subject=

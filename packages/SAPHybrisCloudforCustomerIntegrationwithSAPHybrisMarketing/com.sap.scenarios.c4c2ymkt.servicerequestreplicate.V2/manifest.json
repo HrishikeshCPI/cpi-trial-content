@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.servicerequestreplicate.V2",
+  "Name": "Replicate Service Ticket to SAP Marketing",
+  "Version": "1.0.4",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

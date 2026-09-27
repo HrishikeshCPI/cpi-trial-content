@@ -1,0 +1,17 @@
+#Sun Sep 27 05:00:50 UTC 2026
+C4C_allowChunking_2=1
+C4C_enableBasicAuthentication_0=Client Certificate
+C4C_proxyType_4=default
+CleanRequestHeaders=1
+Extension\ Implemented=false
+Host=*.crm.ondemand.com
+Sender_Auth=RoleBased
+Timeout=60000
+UserRole=ESBMessaging.send
+artifactname=
+issuer=
+p-key-alias=
+subject=
+yMKT-C4C-ActivityReplicationPostExit=/yMKT/C4C/ActivityReplicationOut_PostExit
+yMKT_address_0=/yMKT/C4C/ActivityReplicationOut
+yMKT_enableBasicAuthentication_0=true

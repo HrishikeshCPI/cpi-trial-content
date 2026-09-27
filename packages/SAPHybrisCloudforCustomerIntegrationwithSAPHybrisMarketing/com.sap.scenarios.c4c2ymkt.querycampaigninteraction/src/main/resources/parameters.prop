@@ -1,0 +1,15 @@
+#Sun Sep 27 05:01:07 UTC 2026
+C4C_address_0=/C4C/yMKT/QueryCampaignInteraction
+C4C_senderAuthType_21=RoleBased
+Location_ID=
+Protocol-Hostname-Port=https\://*.s4hana.ondemand.com
+User_Role=ESBMessaging.send
+issuer=
+p-key-alias=
+subject=
+ymkt-user-cred=ODATA-Service-User
+ymkt_authenticationMethod_15=Basic
+ymkt_odatapagesize_5=200
+ymkt_pagination_6=0
+ymkt_proxyType_11=default
+ymkt_receiveTimeOut_8=1

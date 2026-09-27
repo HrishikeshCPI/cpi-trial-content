@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.activityreplication.v2",
+  "Name": "Replicate Business Activity to SAP Marketing",
+  "Version": "1.0.12",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

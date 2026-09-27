@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.opportunityreplicate.v2",
+  "Name": "Replicate Opportunity to SAP Marketing",
+  "Version": "1.0.5",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

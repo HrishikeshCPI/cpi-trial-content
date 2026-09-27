@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.sap.scenarios.c4c2hym.valuemapping; singleton:=
+ true
+Origin-Bundle-SymbolicName: com.sap.scenarios.c4c2hym.valuemapping
+Bundle-ManifestVersion: 2
+Origin-Bundle-Version: 1.0.11
+Import-Package: com.sap.xi.mapping.camel.valmap
+Origin-Bundle-Name: Value Mapping for SAP Cloud for Customer and SAP Mar
+ keting Integration
+Bundle-Version: 1.0.11
+Bundle-Name: Value Mapping for SAP Cloud for Customer and SAP Marketing 
+ Integration
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivator
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1651757591580
+SAP-BundleType: ValueMapping
+

@@ -1,0 +1,21 @@
+#Sun Sep 27 05:00:46 UTC 2026
+C4C_TicketReplicationRequestOut=/C4C/MKT/RequestTicketReplicationExternalOut
+C4C_TicketReplicationRequestOut_PostExit=/C4C/MKT/RequestTicketReplicationExternalOut_PostExit
+CSRF=true
+ContentType=application/atom+xml
+ContentTypeEncoding=none
+Extension\ Implemented=false
+Ignore\ elements\ not\ in\ ODATA\ Metadata=true
+Issuer=
+PROT-HOST-PORT=https\://*.hana.ondemand.com\:443
+Sender_Auth=RoleBased
+Subject=
+Timeout=1
+UserRole=ESBMessaging.send
+credential_name=
+location-id=
+pv-key-alias=
+reuse_connection=true
+yMKT_authenticationMethod=Client Certificate
+yMKT_proxyType=default
+ymkt-user-cred=

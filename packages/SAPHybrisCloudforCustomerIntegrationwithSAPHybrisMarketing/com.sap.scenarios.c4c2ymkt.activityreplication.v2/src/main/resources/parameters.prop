@@ -1,0 +1,22 @@
+#Sun Sep 27 05:01:06 UTC 2026
+C4C-yMKT-ActivityReplicationPostExit=/C4C/yMKT/ActivityReplicationToExtOut_PostExit
+C4C_address_12=/C4C/yMKT/ActivityReplicationToExtOut
+CSRF=true
+ContentType=application/atom+xml
+ContentTypeEncoding=none
+Extension\ Implemented=false
+Ignore\ elements\ not\ in\ ODATA\ Metadata=true
+Protocol-Hostname-Port=https\://*-api.s4hana.ondemand.com
+Reuse_Connection=true
+SenderAuth=RoleBased
+UserRole=ESBMessaging.send
+issuer=
+location-id=
+p-key-alias=
+subject=
+timeout=1
+yMKT_authenticationMethod_1=Basic
+yMKT_odatapagesize_0=200
+yMKT_proxyType_4=default
+yMKT_receiveTimeOut_2=5
+ymkt-user-cred=ODATA-Service-User

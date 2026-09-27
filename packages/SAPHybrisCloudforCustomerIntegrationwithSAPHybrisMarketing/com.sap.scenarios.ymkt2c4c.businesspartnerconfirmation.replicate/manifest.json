@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.ymkt2c4c.businesspartnerconfirmation.replicate",
+  "Name": "Confirm Business Partner Replication from SAP Marketing",
+  "Version": "1.0.1",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

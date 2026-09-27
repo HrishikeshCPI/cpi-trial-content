@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.leadconfirmation.v2",
+  "Name": "Confirm Lead Replication to SAP Marketing V2 Interface",
+  "Version": "1.1.0",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

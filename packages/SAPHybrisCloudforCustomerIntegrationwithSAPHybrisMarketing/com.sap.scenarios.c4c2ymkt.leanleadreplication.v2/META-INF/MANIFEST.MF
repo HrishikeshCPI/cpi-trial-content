@@ -1,0 +1,76 @@
+Manifest-Version: 1.0
+Bundle-Description: 
+Bundle-SymbolicName: com.sap.scenarios.c4c2ymkt.leanleadreplication.v2; 
+ singleton:=true
+Origin-Bundle-SymbolicName: com.sap.scenarios.c4c2ymkt.leanleadreplicati
+ on.v2
+Bundle-ManifestVersion: 2
+Origin-Bundle-Version: 1.0.6
+Import-Package:  com.sap.esb.camel.message.storage.api, com.sap.it.op.ag
+ ent.trace, org.springframework.transaction.support, com.sap.it.rt.adapt
+ er.odata.response, com.sap.it.rt.adapter.odata.destination, com.sap.it.
+ rt.adapter.odata.auth, com.sap.gateway.core.ip.processor.odataprocessor
+ s, com.sap.gateway.core.ip.component.odata, com.sap.it.nm.security, org
+ .springframework.jdbc.datasource, com.sap.it.api.mapping, com.sap.aii.m
+ apping.value.api, com.sap.esb.webservice.security.crypto.api, com.sap.e
+ sb.webservice.policy.alternative.selector, org.apache.cxf.ws.security.w
+ ss4j, org.apache.wss4j.common.crypto, javax.security.auth.callback, com
+ .sap.esb.camel.jdbc.idempotency.reorg, com.sap.it.iflow.model.runtime, 
+ com.sap.it.iflow.model, com.sap.sod.utils.soap.processors, com.sap.it.r
+ t.scc.proxy, com.sap.esb.camel.jdbc.inprogress.repository, com.sap.esb.
+ camel.jdbc.idempotency.repository, com.sap.esb.camel.security.cms, org.
+ apache.camel.processor.idempotent.jdbc, org.apache.camel.spi, com.sap.e
+ sb.camel.endpoint.configurator.api, com.sap.it.op.ed, com.sap.esb.webse
+ rvice.authorization.supplier.api, org.apache.cxf.interceptor.security, 
+ com.sap.esb.camel.mpl.access, com.sap.esb.camel.eip.splitter, com.sap.i
+ t.op.agent.ed.plugins.camel.api, com.sap.esb.camel.xmljson, net.sf.saxo
+ n.xpath, net.sf.saxon,com.sap.esb.application.services.cxf.interceptor,
+ com.sap.esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.collec
+ tor.camel,com.sap.it.op.agent.collector.cxf,com.sap.it.op.agent.mpl,com
+ .sap.sod.utils.cxf.interceptors,com.sap.sod.utils.encoding.processors,c
+ om.sap.sod.utils.idoc.soap,com.sap.sod.utils.soap,com.sap.sod.utils.ido
+ c.soap.processors,javax.jms,javax.jws,javax.wsdl,javax.xml.bind.annotat
+ ion,javax.xml.namespace,javax.xml.ws,org.apache.camel;version="2.8",org
+ .apache.camel.builder;version="2.8",org.apache.camel.builder.xml;versio
+ n="2.8",org.apache.camel.component.cxf,org.apache.camel.model;version="
+ 2.8",org.apache.camel.processor;version="2.8",org.apache.camel.processo
+ r.aggregate;version="2.8",org.apache.camel.spring.spi;version="2.8",org
+ .apache.commons.logging,org.apache.cxf.binding,org.apache.cxf.binding.s
+ oap,org.apache.cxf.binding.soap.spring,org.apache.cxf.bus,org.apache.cx
+ f.bus.resource,org.apache.cxf.bus.spring,org.apache.cxf.buslifecycle,or
+ g.apache.cxf.catalog,org.apache.cxf.configuration.jsse,org.apache.cxf.c
+ onfiguration.spring,org.apache.cxf.endpoint,org.apache.cxf.headers,org.
+ apache.cxf.interceptor,org.apache.cxf.management.counters,org.apache.cx
+ f.message,org.apache.cxf.phase,org.apache.cxf.resource,org.apache.cxf.s
+ ervice.factory,org.apache.cxf.service.model,org.apache.cxf.transport,or
+ g.apache.cxf.transport.common.gzip,org.apache.cxf.transport.http,org.ap
+ ache.cxf.transport.http.policy,org.apache.cxf.workqueue,org.apache.cxf.
+ ws.rm.persistence,org.apache.cxf.wsdl11,org.osgi.framework;version="1.6
+ .0",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.slf4j;versio
+ n="1.6",org.springframework.beans.factory.config;version="3.0",com.sap.
+ aii.ib.bom.flib.types,com.sap.aii.mapping.api,com.sap.aii.mappingtool.f
+ lib3,com.sap.aii.mappingtool.flib7,com.sap.aii.mappingtool.tf3,com.sap.
+ aii.mappingtool.tf3.rt,com.sap.aii.mappingtool.tf7,com.sap.aii.mappingt
+ ool.tf7.rt,com.sap.aii.mappingtool.tfapi,com.sap.esb.webservice.audit.l
+ og
+Origin-Bundle-Name: Replicate Marketing Lead to SAP Marketing V2 Interfa
+ ce
+SAP-RuntimeProfile: iflmap
+Bundle-Name: Replicate Marketing Lead to SAP Marketing V2 Interface
+Bundle-Version: 1.0.6
+Bundle-ClassPath: .,/mapping/COD_CUAN_Lead_Replicate_Bulk.jar,/mapping/C
+ OD_CUAN_Lean_Lead_Replicate_Bulk.jar,/mapping/COD_CUAN_Lead_Replicate_B
+ ulk.jar,/mapping/COD_CUAN_Lean_Lead_Replicate_Bulk.jar,/mapping/COD_CUA
+ N_Lean_Lead_Replicate_Bulk.jar,/mapping/COD_CUAN_Lean_Lead_Replicate_Bu
+ lk.jar
+SAP-NodeType: IFLMAP
+Origin-ModifiedDate: 1726156014760
+Import-Service:  com.sap.esb.camel.security.cms.SignatureSplitter;multip
+ le:=false, org.apache.cxf.ws.rm.persistence.RMStore;multiple:=false, ja
+ vax.sql.DataSource;multiple:=false;filter="(dataSourceName=default)", c
+ om.sap.esb.security.TrustManagerFactory;multiple:=false,  com.sap.esb.s
+ ecurity.KeyManagerFactory;multiple:=false, com.sap.esb.camel.endpoint.c
+ onfigurator.api.EndpointConfigurator;multiple:=false;filter="(endpointT
+ ype=SFTP)",com.sap.esb.webservice.audit.log.AuditLogger 
+SAP-BundleType: IntegrationFlow
+

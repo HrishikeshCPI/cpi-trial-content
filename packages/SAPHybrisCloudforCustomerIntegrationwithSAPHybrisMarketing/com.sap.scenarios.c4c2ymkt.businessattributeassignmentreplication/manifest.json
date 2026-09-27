@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.businessattributeassignmentreplication",
+  "Name": "Replicate Business Attribute Assignment to SAP Marketing",
+  "Version": "2.1.2",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}

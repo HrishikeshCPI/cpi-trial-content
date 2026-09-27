@@ -1,0 +1,17 @@
+#Sun Sep 27 05:00:55 UTC 2026
+BusinessPartnerReplicationPostExit=/C4C/S4/BusinessPartnerReplicationSelfInitiatedOut_PostExit
+C4C_BusinessPartner_S=/C4C/yMKT/BusinessPartnerReplicationSelfInitiatedOut
+C4C_enableBasicAuthentication_28=true
+Client=001
+Location_ID=
+Protocol-Hostname-Port=https\://*-api.s4hana.ondemand.com\:443
+S4_authentication_10=Client Certificate
+S4_proxyType_9=default
+Sender_Auth=RoleBased
+Timeout=60000
+UserRole=ESBMessaging.send
+artifactname=
+isExtensionEnabled=false
+issuer=
+p-key-alias=
+subject=

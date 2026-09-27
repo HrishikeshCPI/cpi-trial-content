@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.scenarios.c4c2ymkt.leanleadreplication.v2",
+  "Name": "Replicate Marketing Lead to SAP Marketing V2 Interface",
+  "Version": "1.0.6",
+  "PackageId": "SAPHybrisCloudforCustomerIntegrationwithSAPHybrisMarketing"
+}
