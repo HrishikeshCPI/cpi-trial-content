@@ -34,5 +34,12 @@
     "com.sap.scenarios.c4c2ymkt.businessattributeassignmentreplication": "2.1.2",
     "com.sap.scenarios.c4c2ymkt.leanleadreplication.v2": "1.0.6",
     "com.sap.scenarios.c4c2ymkt.businesspartnerrelationship.replicate.MDG": "1.1.2"
+  },
+  "SAPCPQIntegrationwithSAPS4HANA": {
+    "com.sap.scenarios.s4h2cpq.customer.replicate": "1.1.1",
+    "com.sap.scenarios.s4h2cpq.product.replicate": "1.0.3",
+    "com.sap.scenarios.cpq2s4h.quote.replicate": "1.2.1",
+    "com.sap.scenarios.s4h2cpq.priceconditionreplication": "1.1.0",
+    "com.sap.scenarios.s4h2cpq.orderconfirmation.replicate": "1.0.0"
   }
 }
