@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.PA_SE_IN.ec2erp.SFSFtoSAPGenericObjectReplication.V1",
+  "Name": "Replicate Organizational Objects from SAP SuccessFactors Employee Central to SAP ERP or SAP S4HANA",
+  "Version": "16.0.0",
+  "PackageId": "SuccessFactorsEmployeeCentraltoERPOrganizationalData"
+}

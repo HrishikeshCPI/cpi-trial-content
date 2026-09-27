@@ -1,0 +1,6 @@
+{
+  "Id": "com.sap.PA_SE_IN.ec2erp.SFSFtoSAPOrgAssignmentReplication.V1",
+  "Name": "Replicate Organizational Assignments from SAP SuccessFactors Employee Central to SAP ERP or SAP S4HANA",
+  "Version": "15.0.0",
+  "PackageId": "SuccessFactorsEmployeeCentraltoERPOrganizationalData"
+}
