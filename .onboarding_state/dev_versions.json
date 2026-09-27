@@ -1,0 +1,8 @@
+{
+  "CustomSAPIntegrationwithNorthWindOData": {
+    "NorthWind_Customer_OData_Git": "1.0.4",
+    "Subflow_1_Northwind_Customer_Data": "1.0.1",
+    "Subflow_2_Northwind_Customer_Data": "1.0.1",
+    "Data_Extractor_copy": "2.0.10"
+  }
+}
